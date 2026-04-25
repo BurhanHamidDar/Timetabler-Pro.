@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@media print {
+  @page {
+    size: landscape;
+    margin: 10mm;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  nav { display: none !important; }
+  button { display: none !important; }
+  .print-hide { display: none !important; }
+  
+  body, html, #root {
+    background-color: white !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+}
