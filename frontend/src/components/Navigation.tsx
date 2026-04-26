@@ -1,4 +1,4 @@
-import React from 'react';
+// React import removed
 import { Link, useLocation } from 'react-router-dom';
 import { Layers, Users, BookOpen, Presentation, Play, Settings, Frame } from 'lucide-react';
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import api from '../lib/api';
-import { AlertCircle, X, Lock, Plus, Calendar as CalendarIcon, Clock, MoreHorizontal, FileDown } from 'lucide-react';
+import { AlertCircle, X, Lock, Plus, Calendar as CalendarIcon, Clock, MoreHorizontal, FileDown, BookOpen, Users } from 'lucide-react';
 
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const PERIODS = [1, 2, 3, 4, 5, 6, 7];
